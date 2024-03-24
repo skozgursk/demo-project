@@ -1,0 +1,10 @@
+
+export { AddressDetails } from './addressDetails/AddressDetails'
+export { CardDetail } from './cardDetail/CardDetail'
+export { Checkout } from './checkout/Checkout'
+export { Login } from './login/Login'
+export { Orders } from './orders/Orders'
+export { PaymentDetails } from './paymentDetails/PaymentDetails'
+export { ProductDetail } from './productDetail/ProductDetail'
+export { Products } from './products/Products'
+export { Register } from './register/Register'

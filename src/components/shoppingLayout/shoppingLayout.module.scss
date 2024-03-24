@@ -1,0 +1,26 @@
+.__layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 64px 1fr;
+}
+
+@media (max-width: 1024px) {
+    .__layout {
+        &__container {
+            display: grid;
+            grid-template-rows: 64px 1fr;
+            grid-template-columns: 1fr;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .__layout {
+        &__container {
+            display: grid;
+            grid-template-rows: 1fr;
+            grid-template-columns: 200px 1fr;
+            gap: 10px;
+        }
+    }
+}
